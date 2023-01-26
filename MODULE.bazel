@@ -1,0 +1,36 @@
+module(
+    name = "bzlmodrio-apriltaglib",
+    version = "3.2.0-3",
+    compatibility_level = 2023,
+)
+
+bazel_dep(name = "platforms", version = "0.0.4")
+bazel_dep(name = "rules_java", version = "5.1.0")
+bazel_dep(name = "rules_bazelrio", version = "0.0.9")
+bazel_dep(name = "rules_roborio_toolchain", version = "2023-7")
+
+setup_bzlmodrio_apriltaglib_cpp_dependencies = use_extension("//:maven_cpp_deps.bzl", "setup_bzlmodrio_apriltaglib_cpp_dependencies")
+use_repo(
+    setup_bzlmodrio_apriltaglib_cpp_dependencies,
+    "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_headers",
+    "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_linuxarm32static",
+    "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_linuxarm32staticdebug",
+    "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_linuxarm64static",
+    "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_linuxarm64staticdebug",
+    "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_linuxathenastatic",
+    "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_linuxathenastaticdebug",
+    "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_linuxx86-64static",
+    "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_linuxx86-64staticdebug",
+    "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_osxuniversalstatic",
+    "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_osxuniversalstaticdebug",
+    "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_sources",
+    "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_windowsx86-64static",
+    "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_windowsx86-64staticdebug",
+    "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_windowsx86static",
+    "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_windowsx86staticdebug",
+)
+
+setup_bzlmodrio_apriltaglib_java_dependencies = use_extension("//:maven_java_deps.bzl", "setup_bzlmodrio_apriltaglib_java_dependencies")
+use_repo(
+    setup_bzlmodrio_apriltaglib_java_dependencies,
+)
