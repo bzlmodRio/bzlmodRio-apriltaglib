@@ -16,7 +16,7 @@ def _default_native_static_platforms():
 
 def get_apriltaglib_dependencies():
     year = "2023"
-    version = "3.2.0-3"
+    version = "3.2.0-4"
 
     group_id = f"edu.wpi.first.thirdparty.frc{year}"
 
