@@ -25,6 +25,8 @@ use_repo(
     "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_osxuniversalstatic",
     "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_osxuniversalstaticdebug",
     "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_sources",
+    "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_windowsarm64static",
+    "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_windowsarm64staticdebug",
     "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_windowsx86-64static",
     "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_windowsx86-64staticdebug",
     "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_windowsx86static",
