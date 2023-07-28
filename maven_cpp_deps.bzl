@@ -80,127 +80,127 @@ def __setup_bzlmodrio_apriltaglib_cpp_dependencies(mctx):
     maybe(
         http_archive,
         "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_headers",
-        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-5/apriltaglib-3.2.0-5-headers.zip",
-        sha256 = "d2eaa7866bdded8d5fdc9a88c035cca5d4c2ff8f0a384920c9ee386b1d3b10ee",
+        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-8/apriltaglib-3.2.0-8-headers.zip",
+        sha256 = "e1d1a779a82aad41c422cd218021eaab8d7d6bbd55414a0a0137c2529c03a1fb",
         build_file_content = cc_library_headers,
     )
     maybe(
         http_archive,
         "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_sources",
-        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-5/apriltaglib-3.2.0-5-sources.zip",
-        sha256 = "d7db508e2dd8175935e789a841949767056348decd4ba5b83eec0b1ebb94167d",
+        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-8/apriltaglib-3.2.0-8-sources.zip",
+        sha256 = "d2ebc0c20ddb121fa795f49e57c5f58c6bbdae40068cd117960c7f091bbe073a",
         build_file_content = cc_library_sources,
     )
     maybe(
         http_archive,
         "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_linuxarm32static",
-        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-5/apriltaglib-3.2.0-5-linuxarm32static.zip",
-        sha256 = "6eb825d0d9c985308ca0ab0148920156ac6da57c3c7a74eb3d1ff02a5d2393c8",
+        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-8/apriltaglib-3.2.0-8-linuxarm32static.zip",
+        sha256 = "fb79473aaf2fef4cb8a915d4d0ec16768612f4b1b6cc6b7edc7a1035d6bb874f",
         build_file_content = cc_library_static,
     )
     maybe(
         http_archive,
         "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_linuxarm64static",
-        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-5/apriltaglib-3.2.0-5-linuxarm64static.zip",
-        sha256 = "fd591af23495613e41a41743b60e242ac33ca89b6534d72301351219b679f620",
+        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-8/apriltaglib-3.2.0-8-linuxarm64static.zip",
+        sha256 = "ec1c7818a74a559ea066e1bf34c5fd58fdbfa88370f929dfa080a3c958e76a70",
         build_file_content = cc_library_static,
     )
     maybe(
         http_archive,
         "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_linuxathenastatic",
-        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-5/apriltaglib-3.2.0-5-linuxathenastatic.zip",
-        sha256 = "f899b3469bb77995db73551fae778dc0d0caa15fb4f1126167e94c5221a7af45",
+        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-8/apriltaglib-3.2.0-8-linuxathenastatic.zip",
+        sha256 = "1d1be86bf79a002dcaf17d682b3865f2b2099979568a1d8389f1113810906428",
         build_file_content = cc_library_static,
     )
     maybe(
         http_archive,
         "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_linuxx86-64static",
-        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-5/apriltaglib-3.2.0-5-linuxx86-64static.zip",
-        sha256 = "b34d5756ecd89190af7f3084ea300889f685ecde0e842de1acaff29087b8c421",
+        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-8/apriltaglib-3.2.0-8-linuxx86-64static.zip",
+        sha256 = "ff093c7b601917a7921dca0110e955f8218d321b19d2600e7b30fcfd923bc68a",
         build_file_content = cc_library_static,
     )
     maybe(
         http_archive,
         "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_osxuniversalstatic",
-        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-5/apriltaglib-3.2.0-5-osxuniversalstatic.zip",
-        sha256 = "10723530c1960b02e106d388d0b4cd81c6f2ccc149c32bee1be7e6f1f17e85d5",
+        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-8/apriltaglib-3.2.0-8-osxuniversalstatic.zip",
+        sha256 = "0c336595917390287e83bec407d76e1d0eadcb2219fe47428fd6e9bc35c38b96",
         build_file_content = cc_library_static,
     )
     maybe(
         http_archive,
         "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_windowsx86-64static",
-        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-5/apriltaglib-3.2.0-5-windowsx86-64static.zip",
-        sha256 = "69e1c13d838985ab7420b1c055de99be806492c8b2000f0cda3bca747a0ab4a1",
+        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-8/apriltaglib-3.2.0-8-windowsx86-64static.zip",
+        sha256 = "39ae25f280d7d2927aed1a2c33eada6ef6a8e36bec02e446facf8a823f56a4de",
         build_file_content = cc_library_static,
     )
     maybe(
         http_archive,
         "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_windowsx86static",
-        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-5/apriltaglib-3.2.0-5-windowsx86static.zip",
-        sha256 = "c98f64f357eb5256fbbfd1e0cbfdf7a099feebbb35ca845693f56fe6795efd27",
+        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-8/apriltaglib-3.2.0-8-windowsx86static.zip",
+        sha256 = "2532b690df25fc053fce73eca612be45c4357c8039b5b01eca75a45383d0e316",
         build_file_content = cc_library_static,
     )
     maybe(
         http_archive,
         "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_windowsarm64static",
-        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-5/apriltaglib-3.2.0-5-windowsarm64static.zip",
-        sha256 = "2b7f286e1c6dbc27115f6a6436de4bf12f50b6fd97d9d0c65ae3264396aaad65",
+        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-8/apriltaglib-3.2.0-8-windowsarm64static.zip",
+        sha256 = "be4cb0806ed0db9877db861131b9738c4e2a17d2016be562487791e91f344f1a",
         build_file_content = cc_library_static,
     )
     maybe(
         http_archive,
         "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_linuxarm32staticdebug",
-        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-5/apriltaglib-3.2.0-5-linuxarm32staticdebug.zip",
-        sha256 = "7cd163303f739e92c6084ef472a174523dc0b0a07c4906a98fdf804e6dade0ab",
+        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-8/apriltaglib-3.2.0-8-linuxarm32staticdebug.zip",
+        sha256 = "9752e1f818622ed7424a77ea5854d1155cd62b096e95d5a0640c34cb2d06ede4",
         build_file_content = cc_library_static,
     )
     maybe(
         http_archive,
         "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_linuxarm64staticdebug",
-        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-5/apriltaglib-3.2.0-5-linuxarm64staticdebug.zip",
-        sha256 = "309de53d4e7db889e20bd6f97d2d05c26fd3aad851f8f2aa6c6c531ed5de6e67",
+        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-8/apriltaglib-3.2.0-8-linuxarm64staticdebug.zip",
+        sha256 = "5bfc2c7a4d8e5dc5e9653d7d97155bfa976de99899002578b3151393560531ce",
         build_file_content = cc_library_static,
     )
     maybe(
         http_archive,
         "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_linuxathenastaticdebug",
-        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-5/apriltaglib-3.2.0-5-linuxathenastaticdebug.zip",
-        sha256 = "9d1fdd34ab6958710caa8e94a73f5f1bbbd5eaa1425ff3192deb1c1529f60fa3",
+        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-8/apriltaglib-3.2.0-8-linuxathenastaticdebug.zip",
+        sha256 = "fceb0a4998164b11deeba2cae1afcead2eca21f66e8c72e076d128b8444c4b30",
         build_file_content = cc_library_static,
     )
     maybe(
         http_archive,
         "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_linuxx86-64staticdebug",
-        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-5/apriltaglib-3.2.0-5-linuxx86-64staticdebug.zip",
-        sha256 = "d37bbddc39f1f5e5d624fda84fb97eee4b4056965d2559461efe596c5747aadc",
+        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-8/apriltaglib-3.2.0-8-linuxx86-64staticdebug.zip",
+        sha256 = "8924b4d43389eafa7e5dd9aadcb8e05680c55a5c01a254c004c25420042b3862",
         build_file_content = cc_library_static,
     )
     maybe(
         http_archive,
         "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_osxuniversalstaticdebug",
-        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-5/apriltaglib-3.2.0-5-osxuniversalstaticdebug.zip",
-        sha256 = "7c10bd7e484a592a131315db65290095022f670fde783b43b18a805bae99848d",
+        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-8/apriltaglib-3.2.0-8-osxuniversalstaticdebug.zip",
+        sha256 = "84ba61bf8eee7fa22cb3492f4eda04baad58c5fc0ffa8e675d4eb39551a12277",
         build_file_content = cc_library_static,
     )
     maybe(
         http_archive,
         "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_windowsx86-64staticdebug",
-        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-5/apriltaglib-3.2.0-5-windowsx86-64staticdebug.zip",
-        sha256 = "d6cd137a3c88f50cf383f5f529568c337543a308dc920969ccc670fab9330cf6",
+        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-8/apriltaglib-3.2.0-8-windowsx86-64staticdebug.zip",
+        sha256 = "c3e20813bc3de13e2f3ef625a6949b55dcedac72633c4898c0090d39a19e27dc",
         build_file_content = cc_library_static,
     )
     maybe(
         http_archive,
         "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_windowsx86staticdebug",
-        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-5/apriltaglib-3.2.0-5-windowsx86staticdebug.zip",
-        sha256 = "a5b3516356a8d3b9ca1915317e0e5c78adb26c4de9f4bd2277b278c27ab3cb37",
+        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-8/apriltaglib-3.2.0-8-windowsx86staticdebug.zip",
+        sha256 = "244e10dbad1070737222dcc925299aa441d5bc3870a673f24d3bd5c882957fcc",
         build_file_content = cc_library_static,
     )
     maybe(
         http_archive,
         "bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_windowsarm64staticdebug",
-        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-5/apriltaglib-3.2.0-5-windowsarm64staticdebug.zip",
-        sha256 = "267ec713efc4f6688cca6ac8960be9a571a05f598338fef8580f125e3f0c5331",
+        url = "https://frcmaven.wpi.edu/release/edu/wpi/first/thirdparty/frc2023/apriltaglib/3.2.0-8/apriltaglib-3.2.0-8-windowsarm64staticdebug.zip",
+        sha256 = "9d9f2b68a4766ec08184c3d66797ecd213de02911288b5c0e74ea0334fa1ab14",
         build_file_content = cc_library_static,
     )
 
