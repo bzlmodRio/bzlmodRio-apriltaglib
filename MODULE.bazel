@@ -1,6 +1,6 @@
 module(
     name = "bzlmodrio-apriltaglib",
-    version = "3.2.0-8",
+    version = "3.3.0-1",
     compatibility_level = 2023,
 )
 
