@@ -1,7 +1,7 @@
 module(
     name = "bzlmodrio-apriltaglib",
     version = "3.3.0-1",
-    compatibility_level = 2023,
+    compatibility_level = 2024,
 )
 
 bazel_dep(name = "platforms", version = "0.0.7")
