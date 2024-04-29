@@ -1,21 +1,15 @@
-load("@rules_cc//cc:defs.bzl", "cc_library")
-
 alias(
     name = "apriltaglib",
     actual = ":static",
     visibility = ["//visibility:public"],
 )
 
-cc_library(
+alias(
     name = "static",
-    linkstatic = 1,
+    actual = "@bzlmodrio-apriltaglib//private/cpp/apriltaglib:static",
     target_compatible_with = select({
         "@rules_bzlmodrio_toolchains//constraints/is_raspi32:raspi32": ["@platforms//:incompatible"],
         "//conditions:default": [],
     }),
     visibility = ["//visibility:public"],
-    deps = [
-    ] + [
-        "@bzlmodrio-apriltaglib//private/cpp/apriltaglib:static",
-    ],
 )
