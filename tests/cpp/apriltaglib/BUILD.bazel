@@ -16,7 +16,7 @@ cc_test(
         "no-sandbox",
     ],
     deps = [
-        "@bzlmodrio-apriltaglib//libraries/cpp/apriltaglib:static",
+        "@bzlmodrio-apriltaglib//libraries/cpp/apriltaglib",
         "@googletest//:gtest_main",
     ],
 )
