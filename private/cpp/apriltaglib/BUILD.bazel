@@ -1,5 +1,11 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
+alias(
+    name = "header_files",
+    actual = "@bazelrio_edu_wpi_first_thirdparty_frc_apriltaglib_headers//:header_files",
+    visibility = ["@bzlmodrio-apriltaglib//:__subpackages__"],
+)
+
 cc_library(
     name = "static",
     linkstatic = 1,
